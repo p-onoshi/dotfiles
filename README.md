@@ -22,4 +22,7 @@ chsh -s /usr/local/bin/fish
 
 # omfのbundleファイルで取ってきてくれるはず
 omf install
+
+# abbreviations setup
+fish ~/dotfiles/fish/config_abbr.fish
 ```
