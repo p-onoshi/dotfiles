@@ -14,8 +14,12 @@ brew bundle
 ```
 # dotfilesにシンボリックリンク
 ln -sf ~/dotfiles/fish ~/.config/fish
+ln -sf ~/dotfiles/omf ~/.config/omf
 
 # Change default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+
+# omfのbundleファイルで取ってきてくれるはず
+omf install
 ```
