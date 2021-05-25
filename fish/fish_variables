@@ -12,6 +12,7 @@ SETUVAR _fish_abbr_dc:docker\x2dcompose
 SETUVAR _fish_abbr_dcd:docker\x2dcompose\x20down
 SETUVAR _fish_abbr_dcs:docker\x2dcompose\x20stop
 SETUVAR _fish_abbr_dcu:docker\x2dcompose\x20up\x20\x2dd
+SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm\x20\x22\x22
 SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gcob:git\x20checkout\x20\x2db
 SETUVAR _fish_abbr_gf:git\x20fetch
@@ -53,3 +54,8 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_user_paths:/usr/local/opt/imagemagick\x406/bin
+SETUVAR theme_color_scheme:dracula
+SETUVAR theme_display_cmd_duration:yes
+SETUVAR theme_display_date:no
+SETUVAR theme_display_docker_machine:yes
+SETUVAR theme_newline_cursor:no
