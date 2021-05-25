@@ -26,12 +26,14 @@ set -U theme_display_docker_machine yes
 set -U theme_color_scheme dracula
 
 
-function fish_user_key_bindings
-  bind \cr peco_select_history # Bind for prco history to Ctrl+r
-end
-
 # peco-cd for ghq
 function cdg
-    ghq list --full-path | peco | read dist
-    cd $dist
+  #ghq list --full-path | peco | read dist
+  #cd $dist
+  cd (ghq list --full-path | peco)
+end
+
+function fish_user_key_bindings
+  bind \cr peco_select_history # Bind for peco history to Ctrl+r
+  bind \cg cdg                 # Bind for peco-cd for ghq to Ctrl+g
 end
