@@ -15,14 +15,9 @@ brew bundle
 # dotfilesにシンボリックリンク
 ln -sf ~/dotfiles/fish ~/.config/fish
 ln -sf ~/dotfiles/omf ~/.config/omf
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 
 # Change default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
-
-# omfのbundleファイルで取ってきてくれるはず
-omf install
-
-# abbreviations setup
-fish ~/dotfiles/fish/config_abbr.fish
 ```
