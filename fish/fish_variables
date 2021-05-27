@@ -17,6 +17,8 @@ SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gcob:git\x20checkout\x20\x2db
 SETUVAR _fish_abbr_gf:git\x20fetch
 SETUVAR _fish_abbr_gp:git\x20pull
+SETUVAR _fish_abbr_gsw:git\x20switch
+SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
 SETUVAR _fish_abbr_his:history
 SETUVAR _fish_abbr_hisp:history\x20\x7c\x20peco
 SETUVAR _fish_abbr_ll:exa\x20\x2dbghHl

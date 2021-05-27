@@ -28,8 +28,6 @@ set -U theme_color_scheme dracula
 
 # peco-cd for ghq
 function cdg
-  #ghq list --full-path | peco | read dist
-  #cd $dist
   cd (ghq list --full-path | peco)
 end
 
