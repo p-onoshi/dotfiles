@@ -12,11 +12,14 @@ SETUVAR _fish_abbr_dc:docker\x2dcompose
 SETUVAR _fish_abbr_dcd:docker\x2dcompose\x20down
 SETUVAR _fish_abbr_dcs:docker\x2dcompose\x20stop
 SETUVAR _fish_abbr_dcu:docker\x2dcompose\x20up\x20\x2dd
+SETUVAR _fish_abbr_ga:git\x20add
+SETUVAR _fish_abbr_gaa:git\x20add\x20\x2dA
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm\x20\x22\x22
 SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gcob:git\x20checkout\x20\x2db
 SETUVAR _fish_abbr_gf:git\x20fetch
 SETUVAR _fish_abbr_gp:git\x20pull
+SETUVAR _fish_abbr_grsh:git\x20reset\x20\x2d\x2dsoft\x20HEAD\x5e
 SETUVAR _fish_abbr_gsw:git\x20switch
 SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
 SETUVAR _fish_abbr_his:history
