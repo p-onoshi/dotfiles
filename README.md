@@ -16,6 +16,7 @@ brew bundle
 ln -sf ~/dotfiles/fish ~/.config/fish
 ln -sf ~/dotfiles/omf ~/.config/omf
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/.vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 # Change default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
