@@ -14,6 +14,7 @@ SETUVAR _fish_abbr_dcs:docker\x2dcompose\x20stop
 SETUVAR _fish_abbr_dcu:docker\x2dcompose\x20up\x20\x2dd
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gaa:git\x20add\x20\x2dA
+SETUVAR _fish_abbr_gbd:git\x20branch\x20\x2dd
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm\x20\x22\x22
 SETUVAR _fish_abbr_gco:git\x20checkout
 SETUVAR _fish_abbr_gcob:git\x20checkout\x20\x2db
