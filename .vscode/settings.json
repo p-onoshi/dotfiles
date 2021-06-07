@@ -3,5 +3,7 @@
     "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontSize": 11,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "screencastMode.fontSize": 40,
+    "files.trimTrailingWhitespace": true
 }
