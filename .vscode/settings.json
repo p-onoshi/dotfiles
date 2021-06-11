@@ -5,5 +5,7 @@
     "editor.fontSize": 11,
     "editor.renderWhitespace": "all",
     "screencastMode.fontSize": 40,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.scrollback": 200000,
+    "editor.minimap.enabled": false
 }
