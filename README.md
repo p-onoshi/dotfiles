@@ -8,7 +8,7 @@ see: https://brew.sh/index_ja
 brew update
 git clone git@github.com:p-onoshi/dotfiles.git ~/dotfiles/
 cd ~/dotfiles
-brew bundle
+brew bundle --file Brewfile -v
 ```
 
 ```
