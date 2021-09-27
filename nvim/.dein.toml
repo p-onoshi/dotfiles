@@ -1,0 +1,9 @@
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'dracula/vim'
+name = 'dracula'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
