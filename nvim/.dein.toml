@@ -7,3 +7,54 @@ name = 'dracula'
 
 [[plugins]]
 repo = 'jiangmiao/auto-pairs'
+
+[[plugins]]
+repo = 'nvim-treesitter/nvim-treesitter'
+hook_post_update = 'TSUpdate'
+hook_source = '''
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = 'all'
+    highlight = {
+      enable = true,
+      disable = {},
+  },
+}
+EOF
+'''
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+merged = 0
+rev = 'release'
+hook_add = '''
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <TAB>
+  \ pumvisible() ? "\<C-n>" :
+  \ <SID>check_back_space() ? "\<TAB>" :
+  \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+'''
+
+[[plugins]]
+repo = 'neoclide/coc-lists'
+build = 'yarn install > /dev/null'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build = './install --bin'
+merged = '0'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo = 'antoinemadec/coc-fzf'
+
+[[plugins]]
+repo = 'neoclide/coc-json'
+build = 'yarn install > /dev/null'
