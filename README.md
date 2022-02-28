@@ -20,6 +20,7 @@ ln -sf ~/dotfiles/.vscode/settings.json ~/Library/Application\ Support/Code/User
 ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/vim/.viminfo ~/.viminfo
 ln -sf ~/dotfiles/nvim/ ~/.config/nvim
+ln -sf ~/dotfiles/alacritty ~/.config/alacritty
 
 # Change default shell
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
