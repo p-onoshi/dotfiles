@@ -58,3 +58,6 @@ repo = 'antoinemadec/coc-fzf'
 [[plugins]]
 repo = 'neoclide/coc-json'
 build = 'yarn install > /dev/null'
+
+[[plugins]]
+repo = 'github/copilot.vim'

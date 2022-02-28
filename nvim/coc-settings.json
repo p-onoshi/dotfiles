@@ -1,0 +1,5 @@
+{
+  "solargraph.checkGemVersion": false,
+  "solargraph.formatting": true,
+  "solargraph.diagnostics": true
+}
