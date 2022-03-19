@@ -21,3 +21,15 @@ font:
     style: Bold
 
   size: 13.0
+
+scrolling:
+  # consoleのlogを10000行まで保持
+  history: 10000
+
+  # スクロール量は3行
+  multiplier: 3
+
+env:
+  TERM: xterm-256color
+
+live_config_reload: true
